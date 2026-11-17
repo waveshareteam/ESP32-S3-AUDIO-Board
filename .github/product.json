@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
+  "product": "ESP32-S3-AUDIO-Board",
+  "product_url": "https://www.waveshare.com/esp32-s3-audio-board.htm",
+  "tier": 0,
+  "target": "esp32s3",
+  "esp_idf": {
+    "versions": [
+      "v5.5.5"
+    ]
+  },
+  "arduino": {
+    "core": "3.2.1",
+    "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=opi,PartitionScheme=esp_sr_16"
+  },
+  "factory_firmware": {
+    "esp_idf": "v5.5.4"
+  }
+}
